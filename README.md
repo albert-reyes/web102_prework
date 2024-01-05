@@ -24,6 +24,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://giphy.com/embed/yAH35Qy6IRBy3SoeXc' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<iframe src="https://giphy.com/embed/yAH35Qy6IRBy3SoeXc" width="480" height="282" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yAH35Qy6IRBy3SoeXc">via GIPHY</a></p>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
