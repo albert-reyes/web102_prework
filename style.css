@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #d3d3d3;
 }
 
 #tentacles {
@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(6, 58, 75);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -21,6 +21,12 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer; 
+    box-shadow: 0 0 30px rgb(141, 129, 110); 
 }
 
 .stats-card {
@@ -49,17 +55,18 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #537adc;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    transition: transform 0.8s;
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(235, 224, 186);
 }
 
 #button-container {
@@ -72,4 +79,75 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+
+.stats-container:hover {
+
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(218, 185, 150);
+}
+
+
+#unfunded-btn {
+    background-color: #537adc;
+    border-radius: 15px;
+    transition: 0.6s;
+    font-size: 15px;
+}
+
+
+#unfunded-btn:hover {
+    background-color: #334b89;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+
+#funded-btn {
+    background-color: #537adc;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+
+#funded-btn:hover {
+    background-color: #334b89;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+
+#all-btn {
+    background-color: #537adc;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+
+#all-btn:hover {
+    background-color: #334b89;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(-3px);
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.game-card:hover {
+    cursor: pointer;
+    animation: spin 0.8s 1 linear; 
+    box-shadow: 0 0 50px rgb(219, 227, 255);
 }
